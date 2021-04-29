@@ -1,0 +1,23 @@
+cd /c/Users/Mei/Desktop/
+mkdir basic_repo
+cd basic_repo
+touch index.html
+touch index.css
+git init
+git add index.html
+git add index.css
+git remote add origin https://github.com/mei-manzo/basic_repo.git
+git add index.html
+git commit -m "initial comment"
+git add index.css
+git commit -m "css comment"
+git push origin master
+git add index.css
+git commit -m "css added"
+git add index.html
+git commit -m "new statement added"
+git push origin master
+
+
+
+
